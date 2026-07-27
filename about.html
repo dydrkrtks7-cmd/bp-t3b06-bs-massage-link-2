@@ -1,365 +1,78 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>발산 마사지 링크 | 정보</title>
-    <meta name="description" content="발산 마사지 링크의 과학적이고 체계적인 마사지 서비스 정보를 제공합니다. 스포츠 마사지, 림프 마사지, 지압 관리의 효과와 연구 데이터를 확인하세요. 010-6279-0862">
-    <meta name="keywords" content="발산 마사지 정보, 발산 마사지 링크 서비스, 발산 스포츠 마사지 효과, 발산 림프 마사지 과학, 발산 마사지 데이터, 마사지 천재 연구, 발산 마사지 샵 정보">
-    <meta name="author" content="발산 마사지 링크">
-    <meta name="robots" content="index, follow">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
-    <link rel="canonical" href="https://balsan-body-info.node-link.shop/about.html">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="발산 마사지 링크 | 과학적 마사지 정보">
-    <meta property="og:description" content="근거 기반 마사지 서비스의 효과와 원리를 데이터로 확인하세요. 발산 지역 최고의 마사지 정보.">
-    <meta property="og:image" content="https://t3b06-bs-massage-link-2.vercel.app/img/og-info.jpg">
-    <meta property="og:url" content="https://balsan-body-info.node-link.shop/about.html">
-    <!-- CSS 시스템 -->
-    <style>
-        /* === RESET & BASE === */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth;
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-        }
-        body {
-            font-family: 'Courier New', 'Consolas', monospace;
-            background-color: #1a1a1a;
-            color: #e0e0e0;
-            line-height: 1.6;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        a {
-            color: #ff6b35;
-            text-decoration: none;
-            transition: all 0.2s ease;
-        }
-        a:hover {
-            color: #ffaa00;
-            text-shadow: 0 0 8px rgba(255, 107, 53, 0.5);
-        }
-        /* === TYPOGRAPHY === */
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 0.5em;
-            font-family: 'Impact', 'Arial Black', sans-serif;
-        }
-        h1 {
-            font-size: clamp(2.2rem, 8vw, 4rem);
-            color: #ff6b35;
-            text-shadow: 3px 3px 0 #000, 5px 5px 0 rgba(255, 107, 53, 0.3);
-            border-bottom: 4px solid #ff6b35;
-            padding-bottom: 0.2em;
-            margin-bottom: 0.8em;
-        }
-        h2 {
-            font-size: clamp(1.6rem, 5vw, 2.8rem);
-            color: #ffaa00;
-            border-left: 6px solid #ff6b35;
-            padding-left: 0.5em;
-        }
-        h3 {
-            font-size: clamp(1.2rem, 4vw, 1.8rem);
-            color: #ffffff;
-            background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
-            padding: 0.3em 0.6em;
-            border: 2px solid #ff6b35;
-            display: inline-block;
-        }
-        p {
-            font-size: 1rem;
-            margin-bottom: 1.2em;
-            max-width: 72ch;
-        }
-        /* === BRUTALIST ELEMENTS === */
-        .brutal-border {
-            border: 3px solid #333;
-            background: #222;
-            padding: 1.5rem;
-            box-shadow: 8px 8px 0 rgba(0,0,0,0.7);
-            transition: all 0.3s;
-        }
-        .brutal-border:hover {
-            border-color: #ff6b35;
-            box-shadow: 10px 10px 0 rgba(255, 107, 53, 0.2);
-        }
-        .brutal-border-accent {
-            border: 3px solid #ff6b35;
-            background: #1a1a1a;
-            padding: 1.5rem;
-            box-shadow: 8px 8px 0 rgba(255, 107, 53, 0.2);
-            position: relative;
-        }
-        .brutal-border-accent::before {
-            content: '';
-            position: absolute;
-            top: -6px;
-            left: -6px;
-            width: 12px;
-            height: 12px;
-            background-color: #ff6b35;
-            clip-path: polygon(0 0, 100% 0, 100% 100%);
-        }
-        /* === NAV === */
-        nav {
-            background: #111;
-            border-bottom: 3px solid #ff6b35;
-            padding: 0.8rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .nav-links {
-            display: flex;
-            gap: 1.5rem;
-            list-style: none;
-        }
-        .nav-links a {
-            font-weight: bold;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            padding: 0.3rem 0.6rem;
-            border: 2px solid transparent;
-            transition: 0.2s;
-        }
-        .nav-links a:hover {
-            border-color: #ff6b35;
-            background: #1a1a1a;
-        }
-        .hamburger-menu {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 4px;
-        }
-        .hamburger-menu span {
-            display: block;
-            width: 28px;
-            height: 3px;
-            background: #ff6b35;
-            border-radius: 2px;
-            transition: 0.3s;
-        }
-        @media (max-width: 768px) {
-            .hamburger-menu {
-                display: flex;
-            }
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                background: #111;
-                padding: 1rem 0;
-                border-top: 2px solid #ff6b35;
-                margin-top: 0.8rem;
-            }
-            .nav-links.active {
-                display: flex;
-            }
-            .nav-links li {
-                text-align: center;
-                padding: 0.5rem 0;
-            }
-        }
-        /* === LAYOUT === */
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
-            flex: 1;
-        }
-        .grid-2 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        .grid-3 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 2rem;
-        }
-        .info-card {
-            background: #1e1e1e;
-            border: 2px solid #333;
-            padding: 1.8rem;
-            transition: 0.3s;
-        }
-        .info-card:hover {
-            border-color: #ff6b35;
-            transform: translateY(-4px);
-        }
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 900;
-            color: #ffaa00;
-            line-height: 1;
-            font-family: 'Impact', sans-serif;
-        }
-        .stat-label {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: #aaa;
-        }
-        .faq-item {
-            border-bottom: 2px solid #2a2a2a;
-            padding: 1.2rem 0;
-        }
-        .faq-item summary {
-            font-weight: bold;
-            font-size: 1.1rem;
-            cursor: pointer;
-            color: #ff6b35;
-            transition: 0.2s;
-        }
-        .faq-item summary:hover {
-            color: #ffaa00;
-        }
-        .faq-item p {
-            margin-top: 0.8rem;
-            padding-left: 1rem;
-        }
-        footer {
-            background: #111;
-            border-top: 3px solid #ff6b35;
-            padding: 2rem;
-            text-align: center;
-            margin-top: auto;
-        }
-        footer p {
-            margin: 0.3rem 0;
-            font-size: 0.9rem;
-            color: #888;
-        }
-        .badge {
-            display: inline-block;
-            background: #ff6b35;
-            color: #111;
-            font-weight: bold;
-            padding: 0.2rem 0.6rem;
-            font-size: 0.75rem;
-            letter-spacing: 0.1em;
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <title>발산 마사지 링크 — 정보</title>
+  <meta name="description" content="발산 마사지 링크 페이지에서는 발산 지역 마사지 서비스에 대한 상세 정보를 제공하고, 선택 시 체크리스트와 상황별 맞춤 가이드를 안내합니다.">
+  <meta name="keywords" content="발산 마사지, 마사지 정보, 발산 마사지 선택, 발산 마사지 상세">
+  <link rel="canonical" href="https://balsan-body-info.node-link.shop/about.html">
+  <meta property="og:title" content="발산 마사지 링크 — 정보">
+  <meta property="og:description" content="발산 지역 마사지 서비스에 대한 심층 정보와 상황에 맞는 선택 기준을 확인하세요.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://balsan-body-info.node-link.shop/about.html">
+  <meta property="og:image" content="https://balsan-body-info.node-link.shop/og-image.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- 네비게이션 -->
+  <header>
     <nav>
-        <div class="logo" style="display:flex; align-items:center; gap:0.5rem;">
-            <span style="font-size:1.8rem; font-weight:900; color:#ff6b35; font-family:'Impact',sans-serif;">LINK</span>
-            <span style="font-size:0.7rem; background:#ff6b35; color:#111; padding:0.1rem 0.4rem;">발산</span>
-        </div>
-        <button class="hamburger-menu" aria-label="메뉴 열기">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links">
-            <li><a href="/">홈</a></li>
-            <li><a href="/about.html">소개</a></li>
-            <li><a href="/info.html" style="border-color:#ff6b35; background:#1a1a1a;">정보</a></li>
-            <li><a href="/prices.html">가격</a></li>
-            <li><a href="/contact.html">문의</a></li>
-        </ul>
+      <a href="/home">홈</a>
+      <a href="/about">소개</a>
+      <a href="/services">서비스</a>
+      <a href="/contact">연락처</a>
     </nav>
+  </header>
 
-    <main class="container">
-        <!-- 페이지 제목 -->
-        <header style="margin-bottom:3rem;">
-            <h1>정보</h1>
-            <p style="font-size:1.2rem; color:#ccc; border-left:4px solid #ff6b35; padding-left:1rem;">
-                발산 마사지 링크 – 과학적 데이터로 증명된 마사지의 효과와 원리
-            </p>
-        </header>
+  <main>
+    <!-- 발산 마사지 서비스 개요 -->
+    <section class="v-box-hnv7">
+      <h1>발산 마사지 서비스 개요</h1>
+      <p>발산 지역은 다양한 마사지 업체가 밀집해 있어 선택의 폭이 넓지만, 동시에 서비스 품질과 전문성을 한눈에 파악하기 어려운 특성을 갖고 있습니다. 이 섹션에서는 발산 지역 마사지 시장의 규모, 주요 서비스 유형, 그리고 이용자들이 흔히 마주치는 문제점들을 정리합니다.</p>
+      <p>주요 서비스는 전통적인 전통 마사지, 스포츠 마사지, 그리고 현대적인 테라피 마사지로 구분됩니다. 각 서비스는 제공되는 테라피 방식, 사용되는 오일 및 도구, 그리고 시술 시간에 따라 차별화됩니다. 발산 지역에서는 특히 30분·60분·90분 등 다양한 시술 시간이 제공되어, 바쁜 일상 속에서도 맞춤형 휴식을 찾을 수 있습니다.</p>
+    </section>
 
-        <!-- 핵심 데이터 섹션 -->
-        <section style="margin-bottom:4rem;">
-            <h2 style="margin-bottom:1.5rem;">📊 연구 데이터</h2>
-            <div class="grid-3">
-                <div class="brutal-border-accent" style="text-align:center;">
-                    <div class="stat-number">92%</div>
-                    <div class="stat-label">근육 회복 속도 향상 (임상)</div>
-                    <p style="font-size:0.85rem; margin-top:0.8rem;">스포츠 마사지 후 48시간 내 통증 감소율, 2024 국제스포츠의학저널</p>
-                </div>
-                <div class="brutal-border-accent" style="text-align:center;">
-                    <div class="stat-number">−47%</div>
-                    <div class="stat-label">림프 부종 감소율</div>
-                    <p style="font-size:0.85rem; margin-top:0.8rem;">림프 마사지 6주 프로그램 결과, 서울대 재활의학과 연구</p>
-                </div>
-                <div class="brutal-border-accent" style="text-align:center;">
-                    <div class="stat-number">83%</div>
-                    <div class="stat-label">수면 질 개선 (자가 보고)</div>
-                    <p style="font-size:0.85rem; margin-top:0.8rem;">지압 관리 후 피험자 100명 대상 조사, 발산 마사지 링크 자체 데이터</p>
-                </div>
-            </div>
-        </section>
+    <!-- 선택 시 고려해야 할 핵심 체크리스트 -->
+    <section class="v-box-hnv7">
+      <h2>선택 시 고려해야 할 핵심 체크리스트</h2>
+      <p>첫 번째로 확인해야 할 항목은 “운영 시간과 예약 가능 여부”입니다. 발산의 인기 업체는 예약이 금세 차기될 수 있기 때문에, 이용하려는 시간대에 미리 예약이 가능한지 확인하는 것이 중요합니다.</p>
+      <p>두 번째는 “시술자 자격증 및 경력”입니다. 마사지는 전문 기술이 요구되는 분야이므로, 시술자가 보유한 국가 인증 자격증과 경력 연수를 검증해야 합니다. 해당 정보는 업체의 홈페이지나 직접 문의를 통해 확인할 수 있습니다.</p>
+      <p>세 번째는 “청결 및 위생 관리 수준”입니다. 마사지는 직접 몸에 접촉하는 서비스이므로, 사용되는 시트, 타월, 및 장비가 정기적으로 세척·소독되는지 여부를 확인하십시오. 청결 인증 마크가 있는지, 혹은 고객 후기에서 위생 관련 언급이 있는지도 체크 포인트입니다.</p>
+      <p>마지막으로 “가격 대비 제공 서비스 범위”를 비교합니다. 동일한 시술 시간이라도 사용되는 오일, 마사지 강도, 추가 서비스(예: 아로마 테라피) 여부에 따라 가격 차이가 발생합니다. 서비스 내용과 가격을 표 형식으로 비교하면 선택에 도움이 됩니다.</p>
+    </section>
 
-        <!-- 서비스 상세 정보 -->
-        <section style="margin-bottom:4rem;">
-            <h2 style="margin-bottom:1.5rem;">🔬 마사지 유형별 메커니즘</h2>
-            <div class="grid-2">
-                <div class="info-card">
-                    <h3>스포츠 마사지</h3>
-                    <p style="color:#ccc; margin:1rem 0;">
-                        <span class="badge">근거 기반</span> 깊은 조직 압박과 스트레칭으로 근막 이완, 젖산 제거 촉진. 
-                        운동 후 72시간 내 근육통 34% 감소 효과 확인 (Med Sci Sports Exerc, 2023).
-                    </p>
-                    <ul style="list-style:square; padding-left:1.2rem; color:#bbb; font-size:0.95rem;">
-                        <li>근육 섬유 재정렬</li>
-                        <li>혈류량 증가 최대 40%</li>
-                        <li>부상 위험 감소</li>
-                    </ul>
-                </div>
-                <div class="info-card">
-                    <h3>림프 마사지</h3>
-                    <p style="color:#ccc; margin:1rem 0;">
-                        <span class="badge">비침습</span> 리드미컬하고 가벼운 압력으로 림프액 흐름 자극. 
-                        만성 부종 환자 대상 4주 치료 후 하체 둘레 평균 3.2cm 감소 (임상 데이터).
-                    </p>
-                    <ul style="list-style:square; padding-left:1.2rem; color:#bbb; font-size:0.95rem;">
-                        <li>면역 세포 순환 강화</li>
-                        <li>독소 배출 촉진</li>
-                        <li>피부 탄력 증가</li>
-                    </ul>
-                </div>
-                <div class="info-card">
-                    <h3>지압 관리</h3>
-                    <p style="color:#ccc; margin:1rem 0;">
-                        <span class="badge">과학적 압력</span> 경혈점 20~30초 지속 압박으로 자율 신경계 조절. 
-                        불안 지수 58% 감소, 코르티솔 수치 25% 하락 (J Altern Complement Med, 2022).
-                    </p>
-                    <ul style="list-style:square; padding-left:1.2rem; color:#bbb; font-size:0.95rem;">
-                        <li>교감신경 안정화</li>
-                        <li>두통 발생 빈도 감소</li>
-                        <li>소화 기능 개선</li>
-                    </ul>
-                </div>
-                <div class="info-card">
-                    <h3>통합 프로토콜</h3>
-                    <p style="color:#ccc; margin:1rem 0;">
-                        <span class="badge">맞춤 설
+    <!-- 상황별 맞춤 추천 시나리오 -->
+    <section class="v-box-hnv7">
+      <h2>상황별 맞춤 추천 시나리오</h2>
+      <p><strong>1. 직장인 저녁 퇴근 후 휴식</strong> – 퇴근 직후 30분~60분 정도의 “데스크스트레칭 마사지”를 권장합니다. 이 코스는 어깨·목·등 근육을 집중 풀어주며, 근육 피로 회복에 효과적입니다. 짧은 시간 안에 전신 이완을 목표로 하므로, 사후에도 가벼운 스트레칭을 이어가는 것이 좋습니다.</p>
+      <p><strong>2. 운동 후 회복</strong> – 고강도 운동을 마친 후 60~90분 “스포츠 마사지”를 선택하세요. 근육 미세 손상을 최소화하고 혈액 순환을 촉진해 회복 속도를 높입니다. 이때 시술자는 근육 부위별 맞춤 압력을 적용하므로, 사전에 부상 부위와 목표 회복 시간을 명확히 전달해야 합니다.</p>
+      <p><strong>3. 주말 가족·커플 힐링</strong> – 주말에 부부나 가족과 함께 이용할 수 있는 “페어 마사지” 프로그램을 고려해 보세요. 두 사람을 동시에 시술하면서 동시에 대화와 휴식을 즐길 수 있는 코스로, 심신의 결속을 강화합니다. 사전에 예약 시 “커플 전용 룸” 여부를 확인하면 더욱 편안한 경험을 할 수 있습니다.</p>
+      <p><strong>4. 스트레스 관리와 정신적 회복</strong> – 정기적인 스트레스 해소를 위해 “아로마 테라피 마사지”를 월 1~2회 진행하는 것이 좋습니다. 라벤더·유칼립투스 등 진정 효과가 검증된 아로마 오일을 사용해 심리적 안정과 수면 질 개선을 도모합니다. 이 경우 시술자는 고객의 취향에 맞춰 오일을 선택해 주어야 합니다.</p>
+    </section>
+
+    <!-- 자주 묻는 질문 (FAQ) -->
+    <section class="v-box-hnv7">
+      <h2>자주 묻는 질문 (FAQ)</h2>
+      <h3>Q1. 예약 취소는 언제까지 가능하나요?</h3>
+      <p>대부분의 발산 마사지 업체는 최소 2시간 전까지 무료 취소를 허용합니다. 그러나 인기 있는 시간대나 특별 이벤트 기간에는 24시간 전까지 요청해야 할 수도 있으니, 사전 확인이 필요합니다.</p>
+      <h3>Q2. 시술자는 외부 교육을 수강했나요?</h3>
+      <p>전문 마사지는 지속적인 교육이 필수이므로, 신뢰할 수 있는 업체일수록 시술자가 정기적인 워크숍·세미나에 참여하고 있음을 명시합니다. 홈페이지나 직접 문의 시 교육 이수 내역을 요청해 보세요.</p>
+      <h3>Q3. 결제 방식은 어떤 것이 가능한가요?</h3>
+      <p>현금·카드 결제는 기본이며, 많은 업체에서 모바일 결제(카카오페이·네이버페이·페이코)와 포인트 적립 서비스까지 제공하고 있습니다. 사전에 결제 옵션을 확인해 원하는 방식으로 결제하세요.</p>
+      <h3>Q4. 첫 방문 시 혜택이 있나요?</h3>
+      <p>신규 고객에게는 첫 시술 10% 할인, 혹은 추가 서비스(아로마 오일·전신 스트레칭) 제공이 일반적입니다. 단, 할인 쿠폰은 사전 예약 시 입력해야 적용됩니다.</p>
+    </section>
+
+    <!-- 지역 신호와 추가 팁 -->
+    <section class="v-box-hnv7">
+      <h2>지역 신호와 추가 팁</h2>
+      <p>발산 지역은 교통이 편리한 위치에 업체가 집중돼 있어, 대중교통(지하철·버스) 이용 시 접근성이 높습니다. 특히 3번 출구와 4번 출구 주변에 위치한 마사지 샵은 이동 거리와 대기 시간을 최소화할 수 있어 시간 관리에 유리합니다.</p>
+      <p>주변에 카페·레스토랑이 많아 시술 전후에 가볍게 식사하거나 차를 마시는 것이 가능합니다. 이는 시술 전 긴장을 풀고, 시술 후 몸을 따뜻하게 보강해 주는 효과가 있어 전체적인 만족도를 높입니다.</p>
+      <p>마지막으로, 계절별 추천 메뉴를 확인해 보세요. 겨울에는 온열 마사지가, 여름에는 시원한 아로마·쿨링 마사지를 선택하면 체감 효과가 더욱 큽니다. 계절 특화 메뉴는 고객 맞춤형 서비스이므로, 예약 시 문의하면 더 세부적인 안내를 받을 수 있습니다.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 발산 마사지 링크. 모든 권리 보유.</p>
+  </footer>
 </body>
 </html>
